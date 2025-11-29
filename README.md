@@ -90,20 +90,20 @@ flowchart TD
 
     %% BERT AG NEWS (Custom Container)
     A[bert_agnews] --> A1[Train BERT on AG News]
-    A --> A2[Build Custom Docker Container]
-    A --> A3[Deploy to Vertex AI Endpoint]
+    A --> A2[Build custom Docker container]
+    A --> A3[Deploy to Vertex AI endpoint]
 
     %% IMDB HUGGINGFACE (Pretrained Deployment)
-    B[imdb_model] --> B1[Load Pretrained HF Model<br>(bert-imdb-model)]
-    B --> B2[Wrap Inference Code]
+    B[imdb_model] --> B1[Load pretrained Hugging Face model]
+    B --> B2[Wrap inference code]
     B --> B3[Upload to Vertex Model Registry]
-    B --> B4[Deploy to Endpoint]
+    B --> B4[Deploy to endpoint]
 
     %% AUTO ML (Tabular)
-    C[dry_beans] --> C1[Upload Tabular Dataset]
-    C --> C2[AutoML Training]
-    C --> C3[Evaluate Model]
-    C --> C4[Deploy AutoML Model]
+    C[dry_beans] --> C1[Upload tabular dataset]
+    C --> C2[Run AutoML training]
+    C --> C3[Evaluate model]
+    C --> C4[Deploy AutoML model]
 
     root[Repository] --> A
     root --> B
