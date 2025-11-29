@@ -75,6 +75,12 @@ To run these examples, you will need:
 - Basic familiarity with Python and machine learning concepts  
 
 ---
+## License
+
+MIT License
+
+---
+
 ```mermaid
 flowchart TD
 
@@ -98,10 +104,4 @@ flowchart TD
     root[Repository] --> A
     root --> B
     root --> C
-## License
-
-MIT License
-
----
-
 
