@@ -5,7 +5,7 @@ Each folder demonstrates a different model deployment pattern, including custom 
 
 The goal of this project is to provide practical, reproducible examples that show how modern ML systems are trained, packaged, deployed, and served on Vertex AI.
 
----
+
 
 ## Repository Structure
 
@@ -22,13 +22,13 @@ Key features:
 
 This example shows how to deploy **any PyTorch model** using a custom container approach without requiring TorchServe.
 
----
+
 
 ### `imdb_model/` — Deploying a Pretrained Hugging Face Model on Vertex AI
 This example demonstrates how to deploy an **existing Hugging Face model** to a Vertex AI Endpoint with minimal setup.
 
 Hugging Face model used:  
-👉 **https://huggingface.co/philipobiorah/bert-imdb-model**
+ **https://huggingface.co/philipobiorah/bert-imdb-model**
 
 It includes:
 - Loading the pretrained classifier from Hugging Face  
@@ -39,7 +39,7 @@ It includes:
 
 This example is ideal for users looking to quickly deploy transformer models using Vertex AI.
 
----
+
 
 ### `dry_beans/` — AutoML Tabular Example
 This folder contains a complete **AutoML Tabular pipeline** using Vertex AI.
@@ -53,7 +53,7 @@ It covers:
 
 Great for users who want a **no-code / low-code** introduction to Vertex AI model development.
 
----
+
 
 ## Session Context
 
@@ -65,7 +65,7 @@ DevFest Scotland 2025
 
 Participants learned the complete MLOps workflow—from data preparation to deployment—through three fully working, real-world examples.
 
----
+
 
 ## Requirements
 
@@ -77,13 +77,13 @@ To run these examples, you will need:
 - Google Colab or Vertex AI Workbench  
 - Basic familiarity with Python and machine learning concepts  
 
----
+
 
 ## License
 
 MIT License
 
----
+
 
 ```mermaid
 flowchart TD
