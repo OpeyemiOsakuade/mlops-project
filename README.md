@@ -5,6 +5,8 @@ Each folder demonstrates a different model deployment pattern, including custom 
 
 The goal of this project is to provide practical, reproducible examples that show how modern ML systems are trained, packaged, deployed, and served on Vertex AI.
 
+Link to slides
+**https://docs.google.com/presentation/d/16Q-WyzvOC6kDKQZktcXmur1eFhu8frX87mCe1s6Qokk/mobilepresent?slide=id.g3a8f94704dc_0_289**
 
 
 ## Repository Structure
